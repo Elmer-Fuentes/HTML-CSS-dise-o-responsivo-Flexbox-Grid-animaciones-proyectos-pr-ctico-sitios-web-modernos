@@ -1,0 +1,7 @@
+echo "# HTML-CSS-dise-o-responsivo-Flexbox-Grid-animaciones-proyectos-pr-ctico-sitios-web-modernos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Elmer-Fuentes/HTML-CSS-dise-o-responsivo-Flexbox-Grid-animaciones-proyectos-pr-ctico-sitios-web-modernos.git
+git push -u origin main
