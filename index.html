@@ -6,7 +6,7 @@
     content="width=device-width, initial-scale=1.0">
     <title>Html 2025</title>
 </head>
-<body>
+<>
     <h1><!--Las h1 son utilizadas para titulos-->
     Titulo
     </h1>
@@ -40,10 +40,21 @@
         <li>Ir al trabajo</li>
         </ul>
 <br>
+<!--a tipo absoluta cuando salen  a otras web no dentro de este proyecto-->
 <!--<a href="URL1">Texto del enlace 1</a>-->
 <a href="https://www.google.com/"> ir a google en la misma pestaña</a><br><!--CON a*4 genera las etiquetas más pro-->
+<!--tipo relativa ya que navega dentor del mismo index ok-->
 <!--<a target="_blank" href="URL1">Texto del enlace 1</a> | | el complemento target="_blank" crea otra ventana ok-->
-<a target="_blank" href="https://www.google.com/">Otra Pestaña de google</a>
+<a target="_blank" href="/page1.html">Otra Pestaña dentro de mi proyecto</a> <br>
+
+<!--Insertar imagen-->
+<!--ruta relativa porque esta dentro del proyecto -->
+<img src="./imagen/gato.jpg" width="100px"/><br>
+<!--ruta absoluta ya que esta fuera del proyecto-->
+<img src="https://img.freepik.com/psd-gratis/hermoso-gato-retrato-aislado_23-2150186143.jpg?t=st=1744310276~exp=1744313876~hmac=67f6da02683bdcfa6b178556483603c525eebcbf293812e94b9b93779147abde&w=740" width="150px"/>
+
+<!--aca borre la ruta para de la img para ver el alt(alterno texto) el acho es recomendable dar con css-->
+<br><img src="./imagen/" width="90px" alt="Gato"/>
 
 
 </body>
