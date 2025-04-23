@@ -1,3 +1,10 @@
+/*esto se puede aplicar par aun tipo de letra en este caso al body veamos*/
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif; /*etiquepa para trabajar el tipo de letra font-family: */
+                                                        /*donde podemos ver tipos de letras personalizados es GOOGLE FONTS*/
+}
+
+
 h1{
     /*considerar que los estilos en las etiqueas se pueden heredar si estan en main h2 y esta varias veces se aplica a todas
     hay maneras de que esto se aplique solo a una*/
