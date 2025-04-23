@@ -1,6 +1,10 @@
+/*aplicare un tipo de letra distinto usando https://fonts.google.com/*/
+/*para esto debemos entrar a la web seleccionar el tipo de font y seleccionarla e ir Get embed code\ @import*/ 
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');/*como ultipo pasar el nombre del tipo de letra esta despues de family= */
+
 /*esto se puede aplicar par aun tipo de letra en este caso al body veamos*/
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif; /*etiquepa para trabajar el tipo de letra font-family: */
+    font-family: 'Cardo', 'Times New Roman', Times, serif; /*etiquepa para trabajar el tipo de letra font-family: */
                                                         /*donde podemos ver tipos de letras personalizados es GOOGLE FONTS*/
 }
 
