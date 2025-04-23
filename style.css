@@ -1,11 +1,16 @@
 h1{
-    color:#4ef700
+    /*considerar que los estilos en las etiqueas se pueden heredar si estan en main h2 y esta varias veces se aplica a todas
+    hay maneras de que esto se aplique solo a una*/
+    color:#4ef700;
+    color: blue !important;
+    color: rgb(255, 128, 225); /*el orden de los colores en CSS prevalece el ultimo
+                                    sin embargo se puede hacer que sea otro el que prevalesca independiente el orden. con la etique !important*/
 }
 
 .contenedor{
-    background-color:chocolate;
+
 }
 
 #mcla{
-    background-color: crimson;
+
 }
