@@ -40,8 +40,9 @@ font-weight: bold
 #mcla{
 
    .espacios{
-line-height: 5;  /*requeri un espaciado de linea ente caso el espacio de linea es mayor se uso clase ok*/
+line-height: 1;  /*requeri un espaciado de linea ente caso el espacio de linea es mayor se uso clase ok*/
 letter-spacing: 0px;  /* espaciado dentro de las letras  aca se realiza por px*/
+text-align: justify; /*alineación de texto */
 
    }
 }
