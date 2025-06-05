@@ -16,6 +16,21 @@ h1{
     color: blue !important;
     color: rgb(255, 128, 225); /*el orden de los colores en CSS prevalece el ultimo
                                     sin embargo se puede hacer que sea otro el que prevalesca independiente el orden. con la etique !important*/
+
+
+                                    /*Los textos de css por defaul son 16 px*/
+font-size: 60px;   /*ajusta el tamaño del texto en este caso afecta al h1*/                                 
+font-size: 60%;   /*ajusta el tamaño del texto en el porcentaje del contenedor en este caso h1 tiene 16px por defaul es decir el 50 % es 8px    */                                
+font-size: 2em;   /*esto equivale al tamañano defaul = 16PX si colocamos 2em = 32 px*/     
+
+/* con esto ponemos un txt en negrita dentro del contenedor padre y su case ok */
+header{
+.prueba{
+font-weight: bold
+}
+
+}   
+                   
 }
 
 .contenedor{
@@ -24,4 +39,5 @@ h1{
 
 #mcla{
 
+    background-color: #4ef700;
 }
