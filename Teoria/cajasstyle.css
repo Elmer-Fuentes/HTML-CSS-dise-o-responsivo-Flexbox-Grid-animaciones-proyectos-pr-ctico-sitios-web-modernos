@@ -1,0 +1,13 @@
+
+*{ /*formateado de pagina con un conenector universarl * esto debe ser defaul en pagina web*/
+    padding: 0; /*Separación de contenido */ 
+    MARGIN: 0; 
+    box-sizing: border-box; /* borde de caja estos son px*/
+
+}
+
+
+
+.Contenedor{
+background-color: blue;
+}
