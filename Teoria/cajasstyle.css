@@ -3,11 +3,15 @@
     padding: 0; /*Separación de contenido */ 
     MARGIN: 0; 
     box-sizing: border-box; /* borde de caja estos son px*/
-
 }
 
 
 
-.Contenedor{
-background-color: blue;
+.Caja1{ 
+        background-color: blue;
+        padding: 10px; /*  padding: 10px; /*      esto es lo que empuja hacia adentro el contenido*/
+        .Caja2{
+            margin: 10px;/*separa los elementos*/
+            background-color: chartreuse;
+        }
 }
